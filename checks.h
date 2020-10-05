@@ -3,7 +3,6 @@
 #include<string>
 #include <iostream>
 #include "Entering.h"
-//just a simple comment
 
 enum stateOfProgram {
 	EXIT = 0, MULTIPLE_CHECKS = 1, SINGLE_CHECK = 2, PRINT_CHECKED = 3, ABOUT_THE_PROGRAM = 4
