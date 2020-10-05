@@ -6,3 +6,5 @@ git push origin master			- прикачваш в интернет
 git clone http:://....			- клонира/копира файловете от подадения url в посочената папка
 git pull origin maser			- тегли от интернет
 git remote add origin http:://..	- вързваш git конзолата да се синхронизира/следи url-а
+
+gitk					- визуализация за git
