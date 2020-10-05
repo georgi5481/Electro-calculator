@@ -8,3 +8,4 @@ git pull origin maser			- тегли от интернет
 git remote add origin http:://..	- вързваш git конзолата да се синхронизира/следи url-а
 
 gitk					- визуализация за git
+//Живоота е хубав - Ники 2020
