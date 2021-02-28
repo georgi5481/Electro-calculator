@@ -24,17 +24,17 @@ void printMainMenu() {
 		<< "Enter 0 to exit this program." << std::endl
 		<< std::endl
 		<< "Enter your choice :";
-	
+
 }
 
 bool checkForChars(std::string& incomingString) {
 
-	if (incomingString == "") {					//if the users inserted string is empty 
+	if (incomingString == "") {					//if the users inserted string is empty
 		std::cout << "Please enter a number from the menu :";
 		return false;
 	}
 
-	int everyCharIsEmpty = 0;
+	unsigned int everyCharIsEmpty = 0;
 
 	for (size_t i = 0; i < incomingString.size() && i < 30; i++) {
 
@@ -95,7 +95,7 @@ int pickingState() {
 }
 
 void menuState(int incomeInt) {
-	
+
 
 	switch (incomeInt) {
 	case MULTIPLE_CHECKS:

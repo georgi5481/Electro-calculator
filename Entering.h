@@ -100,7 +100,7 @@ void entering() {
 		std::cin.ignore();
 		getline(std::cin, exitForLoop);
 		exitForLoop = convertToUpper(exitForLoop);
-		
+
 	}
 
 	system("cls");
@@ -174,10 +174,10 @@ void printTheVector() {
 		std::cout.precision(3);
 		for (auto &i : savedInput) {
 			k++;
-			
 
-			std::cout  << k << " # " << i.consumerInA << "  # " << i.consumerDutyCoefficient << " #  " << i.lenghtOfTheWire  << " #    " << i.howManyPhases << "   #  " 
-				<< i.cosF << " #  " << i.starterCurrent << "  # " << i.C60circuitBreaker[i.counterForCircuitBreakers] 
+
+			std::cout  << k << " # " << i.consumerInA << "  # " << i.consumerDutyCoefficient << " #  " << i.lenghtOfTheWire  << " #    " << i.howManyPhases << "   #  "
+				<< i.cosF << " #  " << i.starterCurrent << "  # " << i.C60circuitBreaker[i.counterForCircuitBreakers]
 				<< "  #  " << i.wireSection[i.counterForWires] << "  #  " << i.voltageLosses << "  #  " << i.voltagePercentLosses << "   #\n";
 
 

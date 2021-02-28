@@ -1,9 +1,10 @@
 #ifndef CLASS_CONTAINER
 #define CLASS_CONTAINER
-#include"checks.h"
-#include<math.h>
-#include <limits>
-//
+#include "checks.h"
+#include <math.h>
+#include <limits.h>
+#include <float.h>
+
 class UsersInputContainer {
 private:
 
@@ -45,11 +46,11 @@ private:
 	void singlePhased() {
 
 
-		
+
 		if (this->consumerInA <= 125) {
 		int i = 0;
-	
-			for (int k = 0; k < (sizeof(this->C60circuitBreaker) / sizeof(this->C60circuitBreaker[0])); k++) {
+
+			for (unsigned int k = 0; k < (sizeof(this->C60circuitBreaker) / sizeof(this->C60circuitBreaker[0])); k++) {
 				if (this->consumerInA < C60circuitBreaker[k]) {
 					this->counterForCircuitBreakers = k;
 					break;
@@ -124,11 +125,11 @@ public:
 			triplePhased();
 		}
 		else {
-			throw "There has been an error. Probably with seting the number of phases.";
+			throw "There has been an error. Probably with setting the number of phases.";
 		}
 	}
 
-	
+
 };
 
 
